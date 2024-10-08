@@ -1,0 +1,4 @@
+Bug #1 - When the bomb misses a building, the plane is not able to drop any more bombs. Even though the bomb misses the buildings, the plane should still be able to drop more.
+Bug #2- The plane can never lose to the first building because it starts on top of it so its nose never hits it. Instead, the plane should start 100 more pixels to the right so that it can run into the first building.
+Bug #3 - When you finish the game and clear all the bombs, you are not prompted to go the next level. This is because to win the game, the plane must be equal to the canvas height, but it should be greater than or equal to the canvas height.
+Bug #4 - Even if a building is leveled, sometimes you can still lose the game by running into it at the end of the level.
