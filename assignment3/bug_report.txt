@@ -1,0 +1,3 @@
+1. Cannot go on the lilypads or logs (frog dies). Fixed a typo of on_long vs on_log to ensure that the program correctly knew when the frog was on a log.
+2. When you died once, you would lose all of your lives. In the died method, added a check to ensure that lives are only decreased if the game is not already paused.
+3. You die when you park your frog in the first home. 6 homes were being created instead of 5 which could have led to some inconsistencies.
